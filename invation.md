@@ -9,7 +9,7 @@ This file is used to invite new member to this organization.
 
 - If you don't want other people know which project you are working on, that's fine. Please ask someone you already know in GSoC-CN vote (create a pr) for you to prove you are GSoC student. And then you can get the invitation.
 
-- You can send an email to our mail list(still working on it), irc channel(still working on it), telegram group(still workin on it) and say hello to us :) And we can of course invite you.
+- You can send an email to our mail list(still working on it), irc channel(still working on it), telegram group(still working on it) and say hello to us :) And we can of course invite you.
 
 ## if you haven't been selected as GSoC student but want to
 
