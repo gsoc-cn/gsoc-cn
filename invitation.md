@@ -5,9 +5,15 @@ This file is used to invite new member to this organization.
 
 ## if you are a GSoC student or mentor indeed and locate in China:
 
-- Please just create a new issue labeled with ```[Join Request]```, introduction yourself and giving the link of your (or your student's) GSoC project page, e.g mine is [https://summerofcode.withgoogle.com/projects/#6008675886956544]. It will be approved quickly.
+- Please just create a new issue labeled with ```[Join Request]```, introduce yourself and giving the link of your (or your student's) GSoC project page, e.g 
+```
+I am a student working on XXX project, ...
 
-- If you don't want publicize the project which you are working on, that's also acceptable. Create a new issue labeled with ```[Join Request]```, provide names and email addresses of *two or more* current GSoC-CN members who could vouch for proving you are a GSoC student/mentor. 
+My project is [https://summerofcode.withgoogle.com/projects/#6008675886956544]
+```
+It will be approved quickly.
+
+- If you don't want to publicize the project which you are working on, that's also acceptable. Create a new issue labeled with ```[Join Request]```, provide names and email addresses of *two or more* current GSoC-CN members who could vouch for proving you are a GSoC student/mentor. 
 
 - You can send an email to our mail list (still working in progress), IRC channel (WIP), Telegram group (WIP) and say hello to us :). And we of course welcome you!
 
