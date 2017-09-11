@@ -3,16 +3,16 @@ This file is used to invite new member to this organization.
 
 # How could I get invitation?
 
-## if you are GSoC student from China already
+## if you are a GSoC student or mentor indeed and locate in China:
 
-- Please just create a pr to this file which contain a link to your GSoC project page [e.g mine is https://summerofcode.withgoogle.com/projects/#6008675886956544]
+- Please just create a new issue labeled with ```[Join Request]```, introduction yourself and giving the link of your (or your student's) GSoC project page, e.g mine is [https://summerofcode.withgoogle.com/projects/#6008675886956544]. It will be approved quickly.
 
-- If you don't want other people know which project you are working on, that's fine. Please ask someone you already know in GSoC-CN vote (create a pr) for you to prove you are GSoC student. And then you can get the invitation.
+- If you don't want publicize the project which you are working on, that's also acceptable. Create a new issue labeled with ```[Join Request]```, provide names and email addresses of *two or more* current GSoC-CN members who could vouch for proving you are a GSoC student/mentor. 
 
-- You can send an email to our mail list(still working on it), irc channel(still working on it), telegram group(still working on it) and say hello to us :) And we can of course invite you.
+- You can send an email to our mail list (still working in progress), IRC channel (WIP), Telegram group (WIP) and say hello to us :). And we of course welcome you!
 
-## if you haven't been selected as GSoC student but want to
+## if you haven't been selected as GSoC student but want to participate,
 
-- You could check our GSoC-Resources repo(still working on it) and ask help in mail list, irc, or telgram.
+- Welcom you checking our GSoC-Resources repo (still working in progress) and ask help in mail list, IRC, or Telgram. Everyone in GSoC-CN would love to help you finishing your GSoC intern!
 
-After all, enjoy it! :)
+After all, Happy Hacking! :)
