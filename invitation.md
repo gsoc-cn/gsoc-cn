@@ -15,7 +15,7 @@ It will be approved quickly.
 
 - If you don't want to publicize the project which you are working on, that's also acceptable. Create a new issue labeled with ```[Join Request]```, provide names and email addresses of *two or more* current GSoC-CN members who could vouch for proving you are a GSoC student/mentor. 
 
-- You can send an email to our mail list (still working in progress), IRC channel (WIP), Telegram group (WIP) and say hello to us :). And we of course welcome you!
+- You can send an email to our mail list (still working in progress), IRC channel ([#gsoccn](https://www.irccloud.com/invite?channel=%23gsoccn&hostname=chat.freenode.net&port=6697&ssl=1) on freenode), [Telegram group](https://t.me/joinchat/B30CMA1YxJ0g0yo3GLj8uA) and say hello to us :). And we of course welcome you!
 
 ## if you haven't been selected as GSoC student but want to participate,
 
