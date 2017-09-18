@@ -10,9 +10,9 @@ You can participate in this activity as long as you are 18 years older college s
 
 只要是你 18 周岁以上的大学生，就可以参加这个活动，你完全可以把它当作你的暑期实习，并且性价比和含金量都比一般实习还高。
 
-## What work you should do?
+## What kind of work you will be doing?
 
-In short, you will work for an open source organization and get money from Google. You may develop a project exists in the organization or create a new, depending on you.
+Briefly, you will have a unique opportunity to directly interact with awesome open source developers during the Summer! All that while being given a generous remuneration by Google! Depending on the open source organisation you choose, you may develop an existing project or you can propose a new one. It all depends on you! :)
 
 简而言之，你需要为一个开源社区工作，然后从 Google 手里得到奖金。你可以开发一个现存的项目，或自己新建一个，这取决于你。
 
