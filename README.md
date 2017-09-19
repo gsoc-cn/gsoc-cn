@@ -33,4 +33,4 @@ There are some resources:
 
 ## How to write a proposal?
 
-There are some proposals: [proposals](./proposals)
+There are some proposals: [proposals](./resources/proposals)
