@@ -1,2 +1,2 @@
 # gsoc-cn
-Main repo for gsoc-cn which about how we maintain this organization  
+Main repo for gsoc-cn about how the organization is maintained
