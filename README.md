@@ -14,7 +14,7 @@ You can participate in this activity as long as you are college students over 18
 
 This organization is made up of previous GSoC students who would like to share their experience of applying and passing GSoC. If you find members here interned for the organization(s) you want to apply for this year, feel free to contact them on [Telegram group](https://t.me/joinchat/B30CMA1YxJ0g0yo3GLj8uA) or IRC channel ([#gsoccn](https://www.irccloud.com/invite?channel=%23gsoccn&hostname=chat.freenode.net&port=6697&ssl=1) on freenode). I believe everyone in here is willing to tell you how to get a GSoC slot by writing a good proposal and negotiate with your community, but please be patient and polite when you ask for help :)
 
-这个社区是由往年参加过 GSoC 的学生组成的，这里的每个人都愿意分享关于如何申请并通过 GSoC 的经验。如果你发现社区成员中有你想要申请的社区的往届 GSoC students，你可以在我们的 [Telegram group](https://t.me/joinchat/B30CMA1YxJ0g0yo3GLj8uA) 或者 IRC 频道 ([#gsoccn](https://www.irccloud.com/invite?channel=%23gsoccn&hostname=chat.freenode.net&port=6697&ssl=1) on freenode)联系他们，向他们请教关于如何申请的经验和与社区沟通的技巧，但是请在提问的时候保持耐心和礼貌。 :)
+这个社区是由往年参加过 GSoC 的学生组成的，这里的每个人都愿意分享关于如何申请并通过 GSoC 的经验。如果你发现社区成员中有你想要申请的社区的往届 GSoC students，你可以在我们的 [Telegram group](https://t.me/joinchat/B30CMA1YxJ0g0yo3GLj8uA) 或者 IRC 频道 ([#gsoccn](https://www.irccloud.com/invite?channel=%23gsoccn&hostname=chat.freenode.net&port=6697&ssl=1) on freenode)联系他们，向他们请教关于如何申请的经验和与社区沟通的技巧，但是请在提问的时候保持耐心和礼貌 :)
 
 
 ## What kind of work you will be doing?
@@ -42,10 +42,10 @@ There are some resources:
 
 There are some proposals: [proposals](./resources/proposals)
 
-这里收集了一些往届的GSoC student的proposal可以参考借鉴：[proposals](./resources/proposals)
+这里收集了一些往届的 GSoC student 的 proposal 可以参考借鉴：[proposals](./resources/proposals)
 
 ## Write in the last
 
 （omit English version for this section）
 
-GSoC-CN 不仅仅是一个有意参加GSoC但是不知道如何下手的学弟学妹们能得到帮助的地方，也是一个提供给曾经参加过 GSoC 的学生分享和保留自己对于开源软件的热情的地方，如果你有什么好的开源项目或者 idea 但是周围的老师同学没有人和你一起开发和维护，如果你想发起一场线下的meet up，如果你从这个社区中收益并想要帮助更多不知道 GSoC 但是有能力完成项目的学生，请**务必**写个issue告诉我们。:)
+GSoC-CN 不仅仅是一个有意参加 GSoC 但是不知道如何下手的学弟学妹们能得到帮助的地方，也是一个提供给曾经参加过 GSoC 的学生分享和保留自己对于开源软件的热情的地方，如果你有什么好的开源项目或者 idea 但是周围的老师同学没有人和你一起开发和维护，如果你想发起一场线下的 meet up，如果你从这个社区中收益并想要帮助更多不知道 GSoC 但是有能力完成项目的学生，请**务必**写个 issue 告诉我们 :)
