@@ -49,3 +49,13 @@ There are some proposals: [proposals](./resources/proposals)
 （omit English version for this section）
 
 GSoC-CN 不仅仅是一个有意参加 GSoC 但是不知道如何下手的学弟学妹们能得到帮助的地方，也是一个提供给曾经参加过 GSoC 的学生分享和保留自己对于开源软件的热情的地方，如果你有什么好的开源项目或者 idea 但是周围的老师同学没有人和你一起开发和维护，如果你想发起一场线下的 meet up，如果你从这个社区中收益并想要帮助更多不知道 GSoC 但是有能力完成项目的学生，请**务必**写个 issue 告诉我们 :)
+
+## LICENSE
+
+<p align="center">
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
+</p>
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/).
+
+本作品采用[知识共享署名-非商业性使用-相同方式共享 3.0 未本地化版本许可协议](http://creativecommons.org/licenses/by-nc-sa/3.0/)进行许可。
