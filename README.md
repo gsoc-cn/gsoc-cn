@@ -36,6 +36,7 @@ There are some resources:
 
 - [Google Summer of Code 学生申请指南](https://zhuanlan.zhihu.com/p/27823910)
 - [Google 编程之夏(GSoC)：海量优质项目，丰厚报酬，你竟然还不知道？](https://zhuanlan.zhihu.com/p/27330699)
+- [参加 Google Summer of Code 的体验](http://geekplux.com/2018/01/07/experience-of-gsoc-google-summer-of-code.html)
 
 
 ## How to write a proposal?
