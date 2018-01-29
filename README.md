@@ -2,6 +2,8 @@
   <img width="250" src="https://avatars0.githubusercontent.com/u/31839369?v=4" alt="logo" />
 </p>
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Gsoc-cn/Lobby)
+
 Welcome to **Open Source** world! Google Summer of Code(GSoC) is a program which provides university students with great opportunities to contribute to open source projects during summer break. See more details at [Official Website](https://developers.google.com/open-source/gsoc/).
 
 欢迎来到开源世界！Google Summer of Code (简称 GSoC，中文翻译作 **Google 编程之夏**) 是大学生在暑假期间参加开源项目的一个非常好的机会。[官网](https://developers.google.com/open-source/gsoc/)
