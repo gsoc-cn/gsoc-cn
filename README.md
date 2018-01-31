@@ -31,29 +31,37 @@ Every **February**, the accepted organizations will be published on the [Officia
 
 每年**二月**，需要你参与的组织会公布在官网上，你可以在**三月**份正式开始申请，你需要做的只是发一份**提议**（关于你想做什么和对组织能做的贡献）。一旦你的提议被组织接受，你就可以参与 GSoC 了！我们建议你提早准备，申请比你想象的简单。
 
+## 资源
 
-## Resources
+### 博客文章
 
-There are some resources:
+这里有一些博文：
 
 - [Google Summer of Code 学生申请指南](https://zhuanlan.zhihu.com/p/27823910)
 - [Google 编程之夏(GSoC)：海量优质项目，丰厚报酬，你竟然还不知道？](https://zhuanlan.zhihu.com/p/27330699)
 - [参加 Google Summer of Code 的体验](http://geekplux.com/2018/01/07/experience-of-gsoc-google-summer-of-code.html)
 
+### 社区与往年项目介绍
 
-## How to write a proposal?
+为了让后来的参与者们能够更快地熟悉社区与流程，我们针对自己参加过的社区与项目进行了简单地介绍，请参见[社区介绍](./organizations/README.md)。这其中包括但不限于社区介绍，历年项目介绍，针对 mentor 的介绍等。
+
+### Proposal 示例
 
 There are some proposals: [proposals](./resources/proposals)
 
 这里收集了一些往届的 GSoC student 的 proposal 可以参考借鉴：[proposals](./resources/proposals)
 
-## Write in the last
+## 贡献指南
 
-（omit English version for this section）
+GSoC-CN 是一个由诸多感兴趣的同学一起维护的开源项目，我们非常欢迎新的贡献者! 这里有很多贡献的方式:
 
-GSoC-CN 不仅仅是一个有意参加 GSoC 但是不知道如何下手的学弟学妹们能得到帮助的地方，也是一个提供给曾经参加过 GSoC 的学生分享和保留自己对于开源软件的热情的地方，如果你有什么好的开源项目或者 idea 但是周围的老师同学没有人和你一起开发和维护，如果你想发起一场线下的 meet up，如果你从这个社区中收益并想要帮助更多不知道 GSoC 但是有能力完成项目的学生，请**务必**写个 issue 告诉我们 :)
+- 向我们贡献你的经验与体会
+- 向周围同学安利 GSoC-CN，让更多的同学能够通过我们的项目对 GSoC 有更多的了解
+- 在我们的[在线聊天频道上](https://gitter.im/Gsoc-cn/Lobby)帮助我们解答同学们的问题，这些问题你也可能遇到过并且知道如何解决
 
-## LICENSE
+GSoC-CN 不仅仅是一个有意参加 GSoC 但是不知道如何下手的学弟学妹们能得到帮助的地方，也是一个提供给曾经参加过 GSoC 的学生分享和保留自己对于开源软件的热情的地方，如果你有什么好的开源项目或者 idea 但是周围的老师同学没有人和你一起开发和维护，如果你想发起一场线下的 meet up，如果你从这个社区中收益并想要帮助更多不知道 GSoC 但是有能力完成项目的学生，请**务必**写个 issue 或者通过我们的 [在线聊天频道](https://gitter.im/Gsoc-cn/Lobby)告诉我们 :)
+
+## 开源许可
 
 <p align="center">
   <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a>
