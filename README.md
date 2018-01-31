@@ -43,7 +43,7 @@ Every **February**, the accepted organizations will be published on the [Officia
 
 ### 社区与往年项目介绍
 
-为了让后来的参与者们能够更快地熟悉社区与流程，我们针对自己参加过的社区与项目进行了简单地介绍，请参见[社区介绍](./organizations/README.md)。这其中包括但不限于社区介绍，历年项目介绍，针对 mentor 的介绍等。
+为了让后来的参与者们能够更快地熟悉社区与流程，我们针对自己参加过的社区与项目进行了简单地介绍，请参见[社区介绍](./resources/organizations/README.md)。这其中包括但不限于社区介绍，历年项目介绍，针对 mentor 的介绍等。
 
 ### Proposal 示例
 
