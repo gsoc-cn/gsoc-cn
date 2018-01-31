@@ -1,0 +1,224 @@
+====================================================
+1. Motivation and Description
+====================================================
+Virtual machines use grant table hypercalls to setup a share page for
+inter-VMs communications. These hypercalls are used by all PV
+protocols today. However, very simple guests, such as baremetal
+applications, might not have the infrastructure to handle the grant table.
+This project is about setting up several shared memory areas for inter-VMs
+communications directly from the VM config file.
+So that the guest kernel doesn't have to have grant table support (in the
+embedded space, this is not unusual) to be able to communicate with
+other guests.
+
+====================================================
+2. Implementation Plan:
+====================================================
+
+======================================
+2.1 Introduce a new VM config option in xl:
+======================================
+
+2.1.1 Design Goals
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The shared areas should be shareable among several (>=2) VMs, so every shared
+physical memory area is assigned to a set of VMs. Therefore, a “token” or
+“identifier” should be used here to uniquely identify a backing memory area.
+A string no longer than 128 bytes is used here to serve the purpose.
+
+The backing area would be taken from one domain, which we will mark
+as the "master domain", and this domain should be created prior to any
+other "slave domain"s. Again, we have to use some kind of tag to tell who
+is the "master domain".
+
+And the ability to specify the permissions and cacheability (and shareability
+for ARM guest's) of the pages to be shared should also be given to the user.
+
+2.2.2 Syntax and Behavior
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The following example illustrates the syntax of the proposed config entry
+(suppose that we're on x86):
+
+In xl config file of vm1:
+  static_shm = [ 'id=ID1, begin=0x100000, end=0x200000, role=master,    \
+                  cache_policy=x86_normal, prot=rw',                    \
+                 'id=ID2, begin=0x300000, end=0x400000, role=master' ]
+
+In xl config file of vm2:
+  static_shm = [ 'id=ID1, offset = 0, begin=0x500000, end=0x600000,     \
+                  role=slave, prot=rw' ]
+
+In xl config file of vm3:
+  static_shm = [ 'id=ID2, offset = 0x10000, begin=0x690000,             \
+                  end=0x800000, role=slave' ]
+
+where:
+  @id              The identifier of the backing memory area.
+                   Can be any string that matches the regexp "[_a-zA-Z0-9]+"
+                   and no longer than 128 characters
+
+  @offset          Can only appear when @role = slave. The sharing will
+                   start from the beginning of backing memory area plus
+                   this offset. If not set, it defaults to zero.
+                   Can be decimals or hexadecimals of the form "0x20000",
+                   and should be the multiple of the hypervisor page
+                   granularity (currently 4K on both ARM and x86).
+
+  @begin/end       The boundaries of the shared memory area. The format
+                   requirements are the same with @offset. This should also
+                   be the multiple of the hypervisor page granularity (currently
+                   4K on both ARM and x86).
+
+  @role            Can only be 'master' or 'slave', it defaults to 'slave'.
+
+  @prot            When @role = master, this means the largest set of
+                   stage-2 permission flags that can be granted to the
+                   slave domains.
+                   When @role = slave, this means the stage-2 permission
+                   flags of the shared memory area.
+                   Currently only 'rw' is supported. If not set. it
+                   defaults to 'rw'.
+
+  @cache_policy    Can only appear when @role = master.
+                   The stage-2 cacheability/shareability attributes of the
+                   shared memory area. Currently, only two policies are
+                   supported:
+                     * ARM_normal: Only applicable to ARM guests. This
+                                   would mean Inner and Outer Write-Back
+                                   Cacheable, and Inner Shareable.
+                     * x86_normal: Only applicable to x86 HVM guests. This
+                                   would mean Write-Back Cacheable.
+                   If not set, it defaults to the *_normal policy for the
+                   current platform.
+
+Note:
+  The sizes of the areas specified by @begin and @end in the slave
+  domain's config file should be smaller than or equal to the corresponding
+  sizes specified in its master's domain. And @offset should always be within
+  the backing memory region. A master can offer several overlapping regions as
+  the backing memory region for several different sshm ID's, but the slaves
+  can't map two different backing memory regions into an overlapping memory
+  space. And each shared memory region ID can appear at most once in one
+  domain's xl config file.
+  The "master" role in vm1 for both ID1 and ID2 indicates that vm1 should be
+  created prior to both vm2 and vm3, for they both rely on the pages backed by
+  vm1. If one tries to create vm2 or vm3 prior to vm1, she will get an error.
+
+In the example above. A memory area ID1 will be shared between vm1 and vm2.
+This area will be taken from vm1 and added to vm2's stage-2 page table.
+The parameter "prot=rw" means that this memory area is offered with read-write
+permission. vm1 can access this area using 0x100000~0x200000, and vm2 using
+0x500000~0x600000. The stage-2 cache policy of this backing memory area is
+x86_normal.
+
+Likewise, a memory area ID2 will be shared between vm1 and vm3 with read-write
+permissions. vm1 is the master and vm2 the slave. Note the @offset = 0x10000
+in vm2' config. The actual sharing relationship would be:
+   (vm1 : 0x310000~0x400000) <=====> (vm2 : 0x690000~0x800000)
+The stage-2 cache policy of this backing memory area is x86_normal.
+
+======================================
+2.2 Store the mem-sharing information in xenstore
+======================================
+For we don't have some persistent storage for xl to store the information
+of the shared memory areas, we have to find some way to keep it between xl
+launches. And xenstore is a good place to do this. The information for one
+shared area should include the ID, master's domid, address range,
+memory attributes and information of the slaves etc. Besides, since a master
+domain can't be totally destroyed if the backing pages are still in use (whether
+by itself or by the slaves), we need to refcount the sshm entry and only
+cleanup the master infomation (and thus the whole sshm path) when the refcount
+reaches 0.
+A current plan is to place the information under /local/shared_mem/ID.
+Still take the above config files as an example:
+
+If we instantiate vm1, vm2 and vm3, one after another, “xenstore ls -f” should
+output something like this:
+
+After VM1 was instantiated, the output of “xenstore ls -f
+will be something like this:
+
+    /local/shared_mem/ID1/master = domid_of_vm1
+    /local/shared_mem/ID1/begin = "0x100000"
+    /local/shared_mem/ID1/end = "0x200000"
+    /local/shared_mem/ID1/prot = "rw"
+    /local/shared_mem/ID1/cache_policy = "x86_normal"
+    /local/shared_mem/ID1/slaves = ""
+    /local/shared_mem/ID1/users = "1"
+
+    /local/shared_mem/ID2/master = domid_of_vm1
+    /local/shared_mem/ID2/begin = "0x300000"
+    /local/shared_mem/ID2/end = "0x400000"
+    /local/shared_mem/ID2/permissions = "rw"
+    /local/shared_mem/ID2/cache_policy = "x86_normal"
+    /local/shared_mem/ID2/slaves = ""
+    /local/shared_mem/ID2/users = "1"
+
+After VM2 was instantiated, the following new lines will appear:
+
+    /local/shared_mem/ID1/users = "2"
+
+    /local/shared_mem/ID1/slaves/domid_of_vm2/begin = "0x500000"
+    /local/shared_mem/ID1/slaves/domid_of_vm2/end = "0x600000"
+    /local/shared_mem/ID1/slaves/domid_of_vm2/offset = "0x0"
+    /local/shared_mem/ID1/slaves/domid_of_vm2/permissions = "rw"
+
+After VM2 was instantiated, the following new lines will appear:
+
+    /local/shared_mem/ID2/users = "2"
+
+    /local/shared_mem/ID2/slaves/domid_of_vm3/begin = "0x690000"
+    /local/shared_mem/ID2/slaves/domid_of_vm3/end = "0x800000"
+    /local/shared_mem/ID2/slaves/domid_of_vm3/offset = "0x10000"
+    /local/shared_mem/ID2/slaves/domid_of_vm3/permissions = "rw"
+
+
+When we encounter an static_shm entry with id = IDx during "xl create":
+
+  + If there's NO corresponding entry in xenstore:
+    + If @role=master, create the corresponding entries for IDx in xenstore
+    + If @role=slave, say error.
+
+  + If the corresponding entry exists in xenstore:
+    + If @role=master, say error
+    + If @role=slave, map the pages to the newly created domain, and add the
+      neccesasry informations under /local/shared_mem/IDx/slaves.
+
+======================================
+2.3 mapping and unmapping the memory areas
+======================================
+Handle the newly added config option in tools/{xl, libxl} and utilize
+toos/libxc to do the actual memory mapping. Specifically, we will use
+xc_domain_add_to_physmap_batch with XENMAPSPACE_gmfn_foreign to
+do the actual mapping during domain creation and xc_domain_remove_from_physmap
+to do the unmapping during domain destruction.
+
+======================================
+2.4 error handling
+======================================
+Add code to handle various errors: Invalid address, invalid permissions, wrong
+order of vm creation, wrong length of memory area, unsupported vms etc.
+
+====================================================
+3. Expected Outcomes/Goals:
+====================================================
+A new VM config option in xl will be introduced, allowing users to setup
+several shared memory areas for inter-VMs communications.
+This should work on both x86 and ARM.
+
+====================================================
+3. Future Directions:
+====================================================
+Implement the missing @prot flags and @cache_policy options.
+
+Allow users to optionally share mfn-contiguous pages.
+
+Set up a notification channel between domains who are communicating through
+shared memory regions, this allows one vm to signal her friends when data is
+available in the shared memory or when the data in the shared memory is
+consumed. The channel could be built upon PPI or SGI.
+
+
+[See also:
+https://wiki.xenproject.org/wiki/Outreach_Program_Projects#Share_a_page_in_memory_from_the_VM_config_file]
