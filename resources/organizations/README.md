@@ -2,3 +2,4 @@
 
 - [Checkstyle](./checkstyle.md)
 - [The Processing Foundation](./processing.md)
+- [coala](./coala.md)
