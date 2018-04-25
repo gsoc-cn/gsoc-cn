@@ -19,6 +19,6 @@ It will be approved quickly.
 
 ## if you haven't been selected as GSoC student but want to participate,
 
-- Welcom you checking our GSoC-Resources repo (still working in progress) and ask help in mail list, IRC, or Telgram. Everyone in GSoC-CN would love to help you finishing your GSoC intern!
+- Welcome you checking our GSoC-Resources repo (still working in progress) and ask help in mail list, IRC, or Telegram. Everyone in GSoC-CN would love to help you finishing your GSoC intern!
 
 After all, Happy Hacking! :)
