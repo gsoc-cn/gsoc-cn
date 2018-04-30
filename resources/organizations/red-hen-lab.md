@@ -27,6 +27,6 @@
 我的放在了 [resources/proposals/2018/red-hen-lab](../proposals/2018/red-hen-lab) 下面。
 
 ## 历年项目
-[GSOC-2015](https://www.google-melange.com/archive/gsoc/2015/orgs/redhenlab)
-[GSOC-2016](https://summerofcode.withgoogle.com/archive/2016/organizations/5973353810624512/#projects)
-[GSOC-2017](https://summerofcode.withgoogle.com/archive/2017/organizations/6645492838563840/)
+[GSOC-2015](https://www.google-melange.com/archive/gsoc/2015/orgs/redhenlab)               
+[GSOC-2016](https://summerofcode.withgoogle.com/archive/2016/organizations/5973353810624512/#projects)         
+[GSOC-2017](https://summerofcode.withgoogle.com/archive/2017/organizations/6645492838563840/)   
