@@ -29,7 +29,7 @@ Briefly, you will have a unique opportunity to directly interact with awesome op
 
 Every **February**, the accepted organizations will be published on the [Official Website](https://summerofcode.withgoogle.com/organizations/). The application starts from **March**, and all that required from you is a **proposal** (about what you plan to do and what you can contribute) to the organization. Once your proposal is accepted by the organization you applied for, you are enrolled in GSoC! To increase the chance you get accepted, we suggest you start early and get familiar with the organizations you are interested in. This is not as hard as you may imagine. [Full timeline](https://developers.google.com/open-source/gsoc/timeline).
 
-每年**二月**，需要你参与的组织会公布在官网上，你可以在**三月**份正式开始申请，你需要做的只是发一份**提议**（关于你想做什么和对组织能做的贡献）。一旦你的提议被组织接受，你就可以参与 GSoC 了！我们建议你提早准备，申请比你想象的简单。
+每年**二月**，需要你参与的组织会公布在[官网](https://summerofcode.withgoogle.com/organizations/)上，你可以在**三月**份正式开始申请，你需要做的只是发一份**提议**（关于你想做什么和对组织能做的贡献）。一旦你的提议被组织接受，你就可以参与 GSoC 了！我们建议你提早准备，申请比你想象的简单。[2018年时间线](https://developers.google.com/open-source/gsoc/timeline)
 
 
 ## 资源
