@@ -8,7 +8,7 @@ Jenkins 是一个用 Java 编写的开源 CI/CD 自动化工具。它提供数�
 
 ## 申请指南
 
-Jenkins 会在其官方网站上发布每年 GSoC 的网页，里面包含申请所需要的所有信息，比如 2018 年的 [Google Summer of Code]((https://jenkins.io/projects/gsoc/))。Jenkins 会在其中对申请的步骤提供详细的说明，例如 [Google Summer of Code. Information for students](https://jenkins.io/projects/gsoc/students/)。
+Jenkins 会在其官方网站上发布每年 GSoC 的网页，里面包含申请所需要的所有信息，比如 2018 年的 [Google Summer of Code](https://jenkins.io/projects/gsoc/)。Jenkins 会在其中对申请的步骤提供详细的说明，例如 [Google Summer of Code. Information for students](https://jenkins.io/projects/gsoc/students/)。
 
 在上面的网页中我们可以找到 [project Ideas](https://jenkins.io/projects/gsoc/gsoc2018-project-ideas/) 以及其它的一些 idea draft。我们也可以自己提议一个 idea，但我个人认为 Jenkins 会更倾向他们发布的 ideas。Jenkins 会在每个 idea 下面列出申请所需的技能。
 
