@@ -6,6 +6,7 @@
 - [Metasploit](./metasploit.md)
 - [Red Hen Lab](./red-hen-lab.md)
 - [The Processing Foundation](./processing.md)
+- [Elastic](./elastic.md)
 
 #### 添加指南
 > 根据模版文件 [template.md](./template.md) 添加即可
