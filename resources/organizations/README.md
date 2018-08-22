@@ -8,7 +8,7 @@
 - [The Processing Foundation](./processing.md)
 - [Elastic](./elastic.md)
 - [Cloud Native Computing Foundation](./cncf.md)
-- [webpack](./webpack)
+- [webpack](./webpack.md)
 
 #### 添加指南
 > 根据模版文件 [template.md](./template.md) 添加即可
