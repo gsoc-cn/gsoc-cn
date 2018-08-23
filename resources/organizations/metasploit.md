@@ -36,7 +36,7 @@ Metasploit 框架使 Metasploit 具有良好的可扩展性，它的控制接口
 ## Proposals
 | Year | Project    | Idea                    | Student     | Mentor     | Proposal                                                     |
 | ---- | ---------- | ----------------------- | ----------- | ---------- | ------------------------------------------------------------ |
-| 2018 | [Metasploit](https://summerofcode.withgoogle.com/organizations/6663368400699392/) | [Add meta-shell commands](https://summerofcode.withgoogle.com/organizations/6663368400699392/#5322546648449024) | [@Wang Yihang](https://github.com/WangYihang) | [@Aaron Soto](https://github.com/asoto-r7) | [Proposal](resources/proposals/2018/metasploit/Proposal%20For%20GSoC%202018%20%2d%20Add%20meta%20commands%20in%20Metasploit%20%2d%20Wang%20Yihang.pdf) |
+| 2018 | [Metasploit](https://summerofcode.withgoogle.com/organizations/6663368400699392/) | [Add meta-shell commands](https://summerofcode.withgoogle.com/organizations/6663368400699392/#5322546648449024) | [@Wang Yihang](https://github.com/WangYihang) | [@Aaron Soto](https://github.com/asoto-r7) | [Proposal](resources/proposals/2018/metasploit/Proposal%20For%20GSoC%202018%20-%20Add%20meta%20commands%20in%20Metasploit%20-%20Wang%20Yihang.pdf) |
 
 
 ## 总结文章
