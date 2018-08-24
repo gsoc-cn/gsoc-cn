@@ -10,6 +10,7 @@
 - [Ruby](./ruby.md)
 - [The Processing Foundation](./processing.md)
 - [webpack](./webpack.md)
+- [Mozilla](./mozilla.md)
 
 #### 添加指南
 > 根据模版文件 [template.md](./template.md) 添加即可
