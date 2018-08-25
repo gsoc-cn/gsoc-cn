@@ -10,6 +10,13 @@
 [4]: https://www.elastic.co/products/kibana
 [5]: https://www.elastic.co/products/beats
 
+以下是 Elastic 的 ecosystem:
+
+<figure style="text-align: center">
+  <img src="https://lh5.googleusercontent.com/mAnUZ0Eb05xJ0FfPLdZUYP2Y6lsoKkxTXXeWRkR90Q5fxt50Af9ee35Oygcz_TUZhWV31D1008C0-DVvC7VyjgRxEAp7x7yrGp_BZvL0hMiPSoSxQjtJXFG5r0qJrtU88XKxdkCx" />
+  <figcaption>Elastic Ecosystem</figcaption>
+</figure>
+
 ## 申请指南
 
 每一个项目都有不同的技术栈，对于 Elasticsearch 需要熟练掌握 Java；对于 Logstash 需要掌握 Ruby 和 Java；对于 Kibana 需要熟练掌握 Javascript。Elastic 社区比较重视申请者的实际编程能力，所以申请者需要在写proposal之前提交至少一个[Pull Request](https://help.github.com/articles/about-pull-requests/)，无论是修改和项目相关的bug还是写新feature都是对申请者的能力有用的背书。
@@ -27,13 +34,15 @@ Elastic 使用的交流平台主要是Slack, IRC, Discuss, 平常的会议会使
 
 ### Kibana Calendar Visualization and Filtering
 
-我参加的是2018年的[Kibana: Calendar Visualization and Filtering](https://github.com/elastic/gsoc#kibana_calendar_visualization)。因为Elastic的技术在工业界的知名度，申请项目的竞争非常激烈，不仅需要申请人很好的编程背景，还要有一份合格的proposal。个人的建议是如果你对Elastic的技术非常感兴趣可以在对应project的issue上面多花一些时间，做一点有意义的pull request，这样的话通过率会比较高。
+我参加的是2018年的 [Kibana: Calendar Visualization and Filtering](https://github.com/elastic/gsoc#kibana_calendar_visualization)。因为Elastic的技术在工业界的知名度，申请项目的竞争非常激烈，不仅需要申请人很好的编程背景，还要有一份合格的proposal。个人的建议是如果你对 Elastic 的技术非常感兴趣可以在对应project的issue上面多花一些时间，做一点有意义的pull request，这样的话通过率会比较高。
 
-// TODO add more description after finish
+关于项目：idea 的提出源于 Kibana 团队的teacher对于管理教学中日程表的使用。在项目之前，Kibana 基于索引文档只提供了基于横轴纵向分割的聚合操作，e.g. Date Histogram Aggregations on log data. 然而没有一个合适的根据日历显示格式排版的组件来展示现有的数据，于是就诞生了这个可视化插件，用来展示基于一天，一个月或者是一年的数据热点图。
+
+未来有可能会成为 Kibana 的核心插件，现阶段还是作为一个community plugin来运作。感兴趣的同学stay tuned: [Kibana Calendar Visualization](https://github.com/aaronoah/kibana_calendar_vis)
 
 ## Proposals
 
-见 [resources/proposals/2018/elastic](../proposals/2018/elastic)
+PDF 见 [resources/proposals/2018/elastic](../proposals/2018/elastic)
 
 ## 历年项目
 
