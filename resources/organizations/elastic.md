@@ -10,7 +10,7 @@
 [4]: https://www.elastic.co/products/kibana
 [5]: https://www.elastic.co/products/beats
 
-以下是 Elastic 的 ecosystem:
+以下是 Elastic 的 ecosystem:
 
 <figure style="text-align: center">
   <img src="https://lh5.googleusercontent.com/mAnUZ0Eb05xJ0FfPLdZUYP2Y6lsoKkxTXXeWRkR90Q5fxt50Af9ee35Oygcz_TUZhWV31D1008C0-DVvC7VyjgRxEAp7x7yrGp_BZvL0hMiPSoSxQjtJXFG5r0qJrtU88XKxdkCx" />
@@ -36,9 +36,9 @@ Elastic 使用的交流平台主要是Slack, IRC, Discuss, 平常的会议会使
 
 我参加的是2018年的 [Kibana: Calendar Visualization and Filtering](https://github.com/elastic/gsoc#kibana_calendar_visualization)。因为Elastic的技术在工业界的知名度，申请项目的竞争非常激烈，不仅需要申请人很好的编程背景，还要有一份合格的proposal。个人的建议是如果你对 Elastic 的技术非常感兴趣可以在对应project的issue上面多花一些时间，做一点有意义的pull request，这样的话通过率会比较高。
 
-关于项目：idea 的提出源于 Kibana 团队的teacher对于管理教学中日程表的使用。在项目之前，Kibana 基于索引文档只提供了基于横轴纵向分割的聚合操作，e.g. Date Histogram Aggregations on log data. 然而没有一个合适的根据日历显示格式排版的组件来展示现有的数据，于是就诞生了这个可视化插件，用来展示基于一天，一个月或者是一年的数据热点图。
+关于项目: idea 的提出源于 Kibana 团队的teacher对于管理教学中日程表的使用。在项目之前，Kibana 基于索引文档只提供了基于横轴纵向分割的聚合操作，e.g. Date Histogram Aggregations on log data. 然而没有一个合适的根据日历显示格式排版的组件来展示现有的数据，于是就诞生了这个可视化插件，用来展示基于一天，一个月或者是一年的数据热点图。
 
-未来有可能会成为 Kibana 的核心插件，现阶段还是作为一个community plugin来运作。感兴趣的同学stay tuned: [Kibana Calendar Visualization](https://github.com/aaronoah/kibana_calendar_vis)
+未来有可能会成为 Kibana 的核心插件，现阶段还是作为一个community plugin来运作。感兴趣的同学stay tuned: [Kibana Calendar Visualization](https://github.com/aaronoah/kibana_calendar_vis)
 
 ## Proposals
 
