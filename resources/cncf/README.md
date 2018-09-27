@@ -6,7 +6,7 @@
 
 ## 基本介绍
 
-CNCF，全称Cloud Native Computing Foundation（云原生计算基金会），口号是**坚持和整合开源技术来让编排容器作为微服务架构的一部分**。
+[CNCF](https://www.cncf.io/)，全称Cloud Native Computing Foundation（云原生计算基金会），口号是**坚持和整合开源技术来让编排容器作为微服务架构的一部分**。
 
 CNCF作为一个厂商中立的基金会，致力于Github上的快速成长的开源技术的推广，如Kubernetes、Prometheus、Envoy等，帮助开发人员更快更好的构建出色的产品。
 
@@ -41,6 +41,7 @@ CNCF基金会自己维护了一个GSoC的[repo](https://github.com/cncf/soc) ，
 
 ## Case Study
 
+### Integrate Containerd with Katacontainers - Containerd
 今年我做的项目是`Integrate Containerd with Katacontainers`。
 
 在一月份的时候，CNCF就在soc的repo下持续更新了今年的idea。扫了一遍后，对两个idea蛮感兴趣的。
@@ -62,10 +63,27 @@ CNCF基金会自己维护了一个GSoC的[repo](https://github.com/cncf/soc) ，
 
 PS: 这里我用slack的原因，一是用slack私信时，可以看到对方那边是几点以及是否在线，这样对沟通的时间比较好掌握；二是用slack就和用微信一样，交流起来更加便捷，能够及时解决疑问。
 
+### Conditional Name Server Identifier - CoreDNS
+我今年做的项目是`Conditional Name Server Identifier`, 其实是一个CoreDNS的external plugin。
+
+[CoreDNS](https://coredns.io/) 是一个plugin-based的轻量级DNS服务器，之所以说它是plugin-based，是因为所有的DNS功能都是通过plugin实现的，而且CoreDNS扩展性高，可定制性强，用户可以根据自己的需求enable/disable plugin，而且也可以根据需求添加自己的plugin。CoreDNS 现在已经被Kubernetes接受，成为Kubernetes cluster的DNS服务器。
+
+至于我项目的具体内容的话，大家可以参考我的代码仓库[idetcd](https://github.com/jiachengxu/idetcd), 里面有详细的介绍，主要是给减轻DevOps配置服务器的工作量提供了一个解决方案，可以做到服务器nodes使用相同configuration，动态配置服务器，实现一步到位。而不需要针对各个node进行配置。
+
+至于申请的要点的话我认为有两点：
+- **积极和mentor沟通联系。** 我当时其实是三月份开始准备的，当时在GSoC网站上一个组织一个组织看，找到CNCF感觉很对自己的胃口，就去CNCF自己维护的GSoC仓库去看今年的项目了，然后发现这个项目挺感兴趣，就赶紧和mentor联系。我是通过邮件联系的，基本上的流程是这样的：第一封邮件先向mentor表明自己的兴趣，然后项目所提供的信息有限，就顺便向mentor了解具体项目信息；第二封的话就是提出自己的一些看法，包括一些自己没看明白的问题，然后尽量提出自己的解决方案；第三封的话就是开始询问一些细节，开始准备写proposal。
+
+- **一篇很好的proposal。** 我个人认为只要你做好了第一点，proposal是水到渠成。比较重要的是proposal尽量边和mentor沟通边写，最后deadline之前记得发给mentor review一下。如果mentor看过之后都觉得没问题，或者给你提出修改意见之后你积极修改，我相信被拒掉的几率也很小吧？最后国内的同学如果英语不是很好的话，记得用语法检测工具（比如Grammarly)记得修正一下语法错误。
+
+至于accept之后的日子就好过了，就是按照计划，逐步完成，记得多和mentor交流，我觉得GSoC最重要的不是你写了多少代码，而是你对项目宏观把握的提升，而且从和mentor的交流之中你也可以对项目管理以及解决问题的方式有一个清晰的认识，我觉得这是单纯写代码学不到的。
+
+至于和mentor的交流方式，我比较喜欢视频会议，我和mentor大概是每周一次，最后两周是每周三次，期间如果遇到问题也会发邮件沟通。视频通话最好的点就是便于交流，写邮件发消息我觉得还是不如直接说话来的快。
+
 ## Proposals
 
-见 [resources/proposals/2018/cncf](../proposals/2018/cncf)
+- [Proposals 2018](./proposals/2018/)
 
 ## 历年项目
 
 - [2017](https://summerofcode.withgoogle.com/archive/2017/organizations/6018829461225472/)
+- [2018](https://summerofcode.withgoogle.com/organizations/6453865516367872/#4718187841585152/)
