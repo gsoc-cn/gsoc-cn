@@ -81,7 +81,7 @@ PS: 这里我用slack的原因，一是用slack私信时，可以看到对方那
 
 ## Proposals
 
-见 [resources/proposals/2018/cncf](../proposals/2018/cncf)
+- [Proposals 2018](./proposals/2018/)
 
 ## 历年项目
 
