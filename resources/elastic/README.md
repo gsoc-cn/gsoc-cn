@@ -34,7 +34,7 @@ Elastic 使用的交流平台主要是Slack, IRC, Discuss, 平常的会议会使
 
 ### Kibana Calendar Visualization and Filtering
 
-我参加的是2018年的 [Kibana: Calendar Visualization and Filtering](https://github.com/elastic/gsoc#kibana_calendar_visualization)。因为Elastic的技术在工业界的知名度，申请项目的竞争非常激烈，不仅需要申请人很好的编程背景，还要有一份合格的proposal。个人的建议是如果你对 Elastic 的技术非常感兴趣可以在对应project的issue上面多花一些时间，做一点有意义的pull request，这样的话通过率会比较高。
+我参加的是2018年的 [Kibana: Calendar Visualization and Filtering](https://summerofcode.withgoogle.com/archive/2018/projects/6162528463749120/)。因为Elastic的技术在工业界的知名度，申请项目的竞争非常激烈，不仅需要申请人很好的编程背景，还要有一份合格的proposal。个人的建议是如果你对 Elastic 的技术非常感兴趣可以在对应project的issue上面多花一些时间，做一点有意义的pull request，这样的话通过率会比较高。
 
 关于项目: idea 的提出源于 Kibana 团队的teacher对于管理教学中日程表的使用。在项目之前，Kibana 基于索引文档只提供了基于横轴纵向分割的聚合操作，e.g. Date Histogram Aggregations on log data. 然而没有一个合适的根据日历显示格式排版的组件来展示现有的数据，于是就诞生了这个可视化插件，用来展示基于一天，一个月或者是一年的数据热点图。
 
@@ -46,4 +46,4 @@ PDF 见 [resources/proposals/2018/elastic](../proposals/2018/elastic)
 
 ## 历年项目
 
-- [2018](https://github.com/elastic/gsoc)
+- [2018](https://summerofcode.withgoogle.com/archive/2018/organizations/5469541127684096/)
