@@ -24,6 +24,12 @@ This organization is made up of previous GSoC students who would like to share t
 - [Slack://gsoc-2018-china](https://join.slack.com/t/gsoc-2018-china/shared_invite/enQtMzU2MjcyNDY0MjU3LTVjYzdmMmM5MTBjNGQ0YjAwYTViOGFmYjRhMTc3MWVlZDEwMGQyMWE5ZTdjZTgzNWMzOTE3ZjdkOThmNDIyZjQ)
 - QQ: 370160773 (GSOC 中国学生)
 
+There are some other resources or communities about Google Summer of Code:
+
+其他有关 Google Summer of Code 的资源与社区：
+
+- 微信公众号：codesummer
+  - 以报道 Google Summer of Code 与其他国际开源编程实习项目为主的科技自媒体平台
 
 I believe everyone here is willing to tell you how to get a GSoC slot by writing a good proposal and how to negotiate with your community, but please be patient and polite when asking for help :)
 
