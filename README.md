@@ -51,6 +51,7 @@ Every **February**, the accepted organizations will be published on the [Officia
 - [Google Summer of Code 学生申请指南](https://zhuanlan.zhihu.com/p/27823910)
 - [Google 编程之夏(GSoC)：海量优质项目，丰厚报酬，你竟然还不知道？](https://zhuanlan.zhihu.com/p/27330699)
 - [参加 Google Summer of Code 的体验](http://geekplux.com/2018/01/07/experience-of-gsoc-google-summer-of-code.html)
+- [这是一篇关于 Google Summer of Code 的介绍](https://www.cnwangjie.com/blog/post/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E5%85%B3%E4%BA%8EGoogleSummerOfCode%E7%9A%84%E4%BB%8B%E7%BB%8D/)
 
 ### 社区与往年项目介绍
 
