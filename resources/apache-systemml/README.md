@@ -35,7 +35,7 @@
 
 ## 历年项目
 
-* [2018][2018-proposal]
+* [2018](https://summerofcode.withgoogle.com/archive/2018/organizations/5175246747336704/)
 
 [2018-proposal]: proposals/2018/apache-systemml-parameter-server.pdf
 [report]: http://edgarlgb.github.io/Gsoc-project/
