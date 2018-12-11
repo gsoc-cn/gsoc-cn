@@ -24,7 +24,7 @@ Checkstyle 开发者主要的交流平台是 [Gitter](https://gitter.im/checksty
 
 ## Case Study
 
-[Regression Testing Tool and HTML Report Generator for Pull Request](https://github.com/checkstyle/regression-tool) 是 [@Luolc](https://github.com/Luolc) 在 GSoC 2017 中参与的一个项目，当时曾撰文介绍 GSoC 并在文章中包含了很多 Checkstyle 项目申请过程和经验分享，可参见 [Google 编程之夏(GSoC)：海量优质项目，丰厚报酬，你竟然还不知道？](https://zhuanlan.zhihu.com/p/27330699)。
+[Regression Testing Tool and HTML Report Generator for Pull Request](https://github.com/checkstyle/regression-tool) 是 [@Luolc](https://github.com/Luolc) 在 GSoC 2017 中参与的一个项目，当时曾撰文介绍 GSoC 并在文章中包含了很多 Checkstyle 项目申请过程和经验分享，可参见 [Google 编程之夏 (GSoC)：海量优质项目，丰厚报酬，你竟然还不知道？](https://zhuanlan.zhihu.com/p/27330699)。
 
 这个项目是为了提升开发流程中的自动化。Checkstyle 在每次接收一个功能性的 Pull Request 时，都需要在数个知名 Java 项目上运行 Checkstyle 检查，进行回归测试，防止因为代码改动引发不希望的 bug。问题在于，因为每次修改的功能点各不相同，执行回归测试时的参数都需要人工配置。于是希望能通过每次 Pull Request 中的 git changes 自动化的提取出一些信息，辅助进行参数配置的工作。
 
