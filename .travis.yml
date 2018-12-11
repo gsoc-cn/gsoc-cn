@@ -1,0 +1,5 @@
+language: python
+
+script:
+  - ./hack/generate.sh
+  - git diff --exit-code
