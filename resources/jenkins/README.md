@@ -14,7 +14,7 @@ Jenkins 会在其官方网站上发布每年 GSoC 的网页，里面包含申请
 
 Jenkins 主要使用的交流平台有 Gitter, IRC, Mailing list, Hangouts。其中日常的简单交流会使用 Gitter 或 IRC，平常的视频会议会使用 Hangouts，其它一些讨论或通知会在 Mailing list 上。
 
-对项目发 pr 会是极大的加分，并且也可以让你了解基本的开发流程（强烈推荐）。Jenkins 有自己的 [JIRA](https://issues.jenkins-ci.org/secure/Dashboard.jspa) 平台，上面有所有 Jenkins 相关的 Issue，大家可以在其中找找符合自己能力的去解决。 
+对项目发 pr 会是极大的加分，并且也可以让你了解基本的开发流程（强烈推荐）。Jenkins 有自己的 [JIRA](https://issues.jenkins-ci.org/secure/Dashboard.jspa) 平台，上面有所有 Jenkins 相关的 Issue，大家可以在其中找找符合自己能力的去解决。
 
 ## Case Study
 我申请的是 2018 年的 [Code Coverage API plugin](https://jenkins.io/projects/gsoc/2018/code-coverage-api-plugin/)。从我个人的角度来看，申请 Jenkins 的项目并不是特别难，只要你的 proposal 写的好点，能修几个 issue ，和你竞争的人不多的话，应该就没有什么问题。
@@ -29,4 +29,3 @@ Jenkins 主要使用的交流平台有 Gitter, IRC, Mailing list, Hangouts。其
 ## 历年项目
 * [2016](https://jenkins.io/projects/gsoc/gsoc2016/)
 * [2018](https://jenkins.io/projects/gsoc/)
-
