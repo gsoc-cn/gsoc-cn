@@ -24,7 +24,7 @@ Jenkins 主要使用的交流平台有 Gitter, IRC, Mailing list, Hangouts。其
 // TODO add more description
 
 ## Proposals
-见 [resources/proposals/2018/Jenkins](../proposals/2018/Jenkins)。
+见 [proposals/2018](proposals/2018)。
 
 ## 历年项目
 * [2016](https://jenkins.io/projects/gsoc/gsoc2016/)

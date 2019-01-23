@@ -23,8 +23,8 @@ TBD
 ## Proposals
 | Year | Project | Idea | Student | Mentor | Proposal |
 | ---- | ------- | ---- | ------- | ------ | -------- |
-|2016|SETA|[Redesign SETA](https://summerofcode.withgoogle.com/archive/2016/projects/6052020431618048/)|[@MikeLing](https://github.com/MikeLing)| [Jmaher](https://mozillians.org/en-US/u/jmaher/) & [Armenzg](https://mozillians.org/en-US/u/armenzg/) |[proposal](../proposals/2016/mozilla/GSoC%20proposal.pdf)|
-|2018|[metricsgraphics](https://github.com/metricsgraphics/metrics-graphics)|zooming and brushing|[Yunhao Zhang](https://github.com/cnwangjie)|[William Lachance](https://mozillians.org/en-US/u/wlach/)|[proposal](../proposals/2018/mozilla/metricsgraphics%20-%20zooming%20and%20brushing.pdf)
+|2016|SETA|[Redesign SETA](https://summerofcode.withgoogle.com/archive/2016/projects/6052020431618048/)|[@MikeLing](https://github.com/MikeLing)| [Jmaher](https://mozillians.org/en-US/u/jmaher/) & [Armenzg](https://mozillians.org/en-US/u/armenzg/) |[proposal](proposals/2016/GSoC%20proposal%202016%20MikeLing.pdf)|
+|2018|[metricsgraphics](https://github.com/metricsgraphics/metrics-graphics)|zooming and brushing|[Yunhao Zhang](https://github.com/cnwangjie)|[William Lachance](https://mozillians.org/en-US/u/wlach/)|[proposal](proposals/2018/metricsgraphics%20-%20zooming%20and%20brushing.pdf)
 
 ## 总结文章
 | Year | Project | Student | Mentor |  Report  |

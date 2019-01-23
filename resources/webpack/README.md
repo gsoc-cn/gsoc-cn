@@ -18,7 +18,7 @@ webpack 官方有比较完整的[贡献文档](https://medium.com/webpack/contri
 
 | Year | Project | Idea | Student | Mentor | Proposal |
 | ---- | ------- | ---- | ------- | ------ | -------- |
-| 2018 | Deep Scope Analysis |      | Vincent Chan | Tobias | [Proposal](../proposals/2018/webpack) |
+| 2018 | Deep Scope Analysis |      | Vincent Chan | Tobias | [Proposal](proposals/2018) |
 
 ## 总结文章
 

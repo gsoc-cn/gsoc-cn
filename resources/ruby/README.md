@@ -26,7 +26,7 @@ Bundler 的作者 [@indirect](https://github.com/indirect) 有一篇很好的[�
 
 | Year | Project | Idea                              | Student     | Mentor                 | Proposal                                                     |
 | ---- | ------- | --------------------------------- | ----------- | ---------------------- | ------------------------------------------------------------ |
-| 2018 | Ruby    | Add multi-factor auth to RubyGems | Qiu Chaofan | @indirect, @sonalkr132 | [Proposal](../proposals/2018/Ruby) |
+| 2018 | Ruby    | Add multi-factor auth to RubyGems | Qiu Chaofan | @indirect, @sonalkr132 | [Proposal](proposals/2018) |
 
 ## 总结文章
 
