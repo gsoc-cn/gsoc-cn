@@ -23,7 +23,7 @@
 	> 待续
 
 ## Proposal(s)
-我的放在了 [resources/proposals/2018/red-hen-lab](../proposals/2018/red-hen-lab) 下面。
+我的放在了 [proposals/2018](proposals/2018) 下面。
 
 ## 历年项目
 

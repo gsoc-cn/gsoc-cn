@@ -32,7 +32,7 @@ Checkstyle 开发者主要的交流平台是 [Gitter](https://gitter.im/checksty
 
 ## Proposals
 
-PDF 版见该仓库 [resources/proposals/2017/checkstyle](../proposals/2017/checkstyle) 目录。
+PDF 版见该仓库 [proposals/2017](proposals/2017) 目录。
 
 Google Docs 版见：
 - [Optimization of Distance Between Methods in Single Java Class](https://docs.google.com/document/d/1lWXpWhUN6cE06sjQANjWxamc_X3ddbSphTRSofChLyk/edit?usp=sharing)

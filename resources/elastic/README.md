@@ -42,7 +42,7 @@ Elastic 使用的交流平台主要是 Slack, IRC, Discuss, 平常的会议会�
 
 ## Proposals
 
-PDF 见 [resources/proposals/2018/elastic](../proposals/2018/elastic)
+PDF 见 [proposals/2018](proposals/2018)
 
 ## 历年项目
 
