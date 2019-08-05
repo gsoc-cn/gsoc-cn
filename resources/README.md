@@ -14,6 +14,7 @@
 - [mozilla](./mozilla)
 - [netjsongraph.js](./netjsongraph.js)
 - [openastronomy](./openastronomy)
+- [opendatakit](./opendatakit)
 - [processing](./processing)
 - [psf](./psf)
 - [red-hen-lab](./red-hen-lab)
