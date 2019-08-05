@@ -31,7 +31,7 @@ Open Data Kit 的管理人员是一对超级有爱的夫妇：Yaw 和 Hélène�
 
 ## Proposals
 
-[2019](./proposals/2019/Proposal for GSoC 2019.pdf)
+[2019](./proposals/2019/)
 
 
 ## 历年项目
