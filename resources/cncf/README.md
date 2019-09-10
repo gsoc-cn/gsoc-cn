@@ -13,7 +13,7 @@ CNCF 作为一个厂商中立的基金会，致力于 Github 上的快速成长�
 下图是 CNCF 的全景图:
 
 <p align="center">
-  <img width="100%" height="100%" src="https://raw.githubusercontent.com/cncf/landscape/master/landscape/CloudNativeLandscape_latest.png" alt="logo" />
+  <img width="100%" height="100%" src="https://landscape.cncf.io/images/landscape.png" alt="logo" />
 </p>
 
 关于 CNCF 的使命与组织方式请参考 [CNCF 宪章](https://www.cncf.io/about/charter/)，概括的讲 CNCF 的使命包括以下三点：
