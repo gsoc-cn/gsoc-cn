@@ -20,6 +20,7 @@
 - [red-hen-lab](./red-hen-lab)
 - [ruby](./ruby)
 - [shogun](./shogun)
+- [tensorflow](./tensorflow)
 - [webpack](./webpack)
 - [xen](./xen)
 
