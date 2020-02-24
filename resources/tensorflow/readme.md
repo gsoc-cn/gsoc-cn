@@ -18,6 +18,7 @@ Tensorflow 是由 Google 开源的深度学习框架。它可以在多端运行�
 | Year | Project | Idea | Student | Mentor | Proposal |
 | ---- | ------- | ---- | ------- | ------ | -------- |
 | 2019 | Webworker in tfjs |      | Wenhe Li | Daniel | [Proposal](./proposal/2019/TensorFlow.js-Webworker.pdf) |
+| 2019 | JSON Dataset Reader |      | Jiacheng Xu | Yong Tang | [Proposal](./proposal/2019/TensorFlow-io-json.pdf) |
 
 ## 总结文章
 
