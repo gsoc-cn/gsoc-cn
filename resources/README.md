@@ -16,7 +16,7 @@
 - [openastronomy](./openastronomy)
 - [opendatakit](./opendatakit)
 - [processing](./processing)
-- [psf](./psf)
+- [cern-psf](./cern-psf)
 - [red-hen-lab](./red-hen-lab)
 - [ruby](./ruby)
 - [shogun](./shogun)
