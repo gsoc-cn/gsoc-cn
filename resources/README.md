@@ -2,7 +2,7 @@
 #### 社区介绍
 
 - [apache-systemml](./apache-systemml)
-- [cern-psf](./cern-psf)
+- [cern-hsf](./cern-hsf)
 - [checkstyle](./checkstyle)
 - [cncf](./cncf)
 - [coala](./coala)
