@@ -2,6 +2,7 @@
 #### 社区介绍
 
 - [apache-systemml](./apache-systemml)
+- [cern-psf](./cern-psf)
 - [checkstyle](./checkstyle)
 - [cncf](./cncf)
 - [coala](./coala)
@@ -16,7 +17,6 @@
 - [openastronomy](./openastronomy)
 - [opendatakit](./opendatakit)
 - [processing](./processing)
-- [cern-psf](./cern-psf)
 - [red-hen-lab](./red-hen-lab)
 - [ruby](./ruby)
 - [shogun](./shogun)
