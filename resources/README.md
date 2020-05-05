@@ -2,6 +2,7 @@
 #### 社区介绍
 
 - [apache-systemml](./apache-systemml)
+- [arduino](./arduino)
 - [cern-hsf](./cern-hsf)
 - [checkstyle](./checkstyle)
 - [cncf](./cncf)
