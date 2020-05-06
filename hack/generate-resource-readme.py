@@ -1,4 +1,5 @@
 import os
+import sys
 from string import Template
 
 
@@ -19,6 +20,8 @@ $content
         result = []
         for filename in os.listdir(self.resource_path):
             if filename.endswith(".md"):
+                continue
+            if sys.platform == "darwin" and filename == ".DS_Store":
                 continue
             else:
                 result.append(filename)
