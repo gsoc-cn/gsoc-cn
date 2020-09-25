@@ -3,6 +3,7 @@
 
 - [apache-systemml](./apache-systemml)
 - [arduino](./arduino)
+- [casbin](./casbin)
 - [cern-hsf](./cern-hsf)
 - [checkstyle](./checkstyle)
 - [cncf](./cncf)
