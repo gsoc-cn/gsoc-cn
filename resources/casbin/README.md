@@ -26,9 +26,9 @@ Casbin 使用的交流平台主要是 Slack, Gitter, 平常的会议会使用 Zo
 | 2020 | [Impelement the Async SQL Adapter and Actix-web middleware for Casbin-rs](https://summerofcode.withgoogle.com/projects/#5810607317581824) | [GSoC @ Casbin: Ideas List](https://github.com/casbin/SummerOfCode2020) | [@Hackerchai](https://github/com/hackerchai) | [@GopherJ](https://github.com/GopherJ) | [Casbin-Rust]((./proposals/2020/ProposalForGSoC2020-Casbin-Rust.pdf)) |
 
 ## 总结文章
-| Year | Project                                                      | Idea                                                         | Student                                      | Mentor                                       | Report                                                       |
-| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------------------- | -------------------------------------------- | ------------------------------------------------------------ |
-| 2020 | [Impelement the Async SQL Adapter and Actix-web middleware for Casbin-rs](https://summerofcode.withgoogle.com/projects/#5810607317581824) | [GSoC @ Casbin: Ideas List](https://github.com/casbin/SummerOfCode2020) | [@Hackerchai](https://github/com/hackerchai) | [@Hackerchai](https://github/com/hackerchai) | [GSoC Final Report - Casbin-RS](https://blog.starcys.xyz/gsoc2020-final-report-casbin-rust) |
+| Year | Project                                                      | Idea                                                         | Student                                      | Mentor                                 | Report                                                       |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------------------- | -------------------------------------- | ------------------------------------------------------------ |
+| 2020 | [Impelement the Async SQL Adapter and Actix-web middleware for Casbin-rs](https://summerofcode.withgoogle.com/projects/#5810607317581824) | [GSoC @ Casbin: Ideas List](https://github.com/casbin/SummerOfCode2020) | [@Hackerchai](https://github/com/hackerchai) | [@GopherJ](https://github.com/GopherJ) | [GSoC Final Report - Casbin-RS](https://blog.starcys.xyz/gsoc2020-final-report-casbin-rust) |
 
 ## 历年项目
 * [2020](https://summerofcode.withgoogle.com/archive/2020/organizations/6587176113930240/)
