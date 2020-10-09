@@ -18,6 +18,7 @@
 - [netjsongraph.js](./netjsongraph.js)
 - [openastronomy](./openastronomy)
 - [opendatakit](./opendatakit)
+- [openrefine](./openrefine)
 - [processing](./processing)
 - [red-hen-lab](./red-hen-lab)
 - [ruby](./ruby)
