@@ -13,6 +13,7 @@
 - [hibernate](./hibernate)
 - [jenkins](./jenkins)
 - [Julia](./Julia)
+- [llvm](./llvm)
 - [metasploit](./metasploit)
 - [mozilla](./mozilla)
 - [netjsongraph.js](./netjsongraph.js)
