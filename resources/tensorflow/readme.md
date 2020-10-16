@@ -3,6 +3,7 @@
 ## 关键词
 
 Deep Learning, Google, Python, Swift, C/C++, Javascript
+
 ## 基本介绍
 
 Tensorflow 是由 Google 开源的深度学习框架。它可以在多端运行（移动端，网页以及服务器）。
@@ -18,7 +19,7 @@ Tensorflow 是由 Google 开源的深度学习框架。它可以在多端运行�
 | Year | Project | Idea | Student | Mentor | Proposal |
 | ---- | ------- | ---- | ------- | ------ | -------- |
 | 2019 | Webworker in tfjs |      | Wenhe Li | Daniel | [Proposal](./proposal/2019/TensorFlow.js-Webworker.pdf) |
-| 2019 | JSON Dataset Reader |      | Jiacheng Xu | Yong Tang | [Proposal](./proposal/2019/TensorFlow-io-json.pdf) |
+| 2019 | [JSON Dataset Reader](https://summerofcode.withgoogle.com/archive/2019/projects/5358647872323584/) |      | Jiacheng Xu | Yong Tang and [Yuan Tang](https://github.com/terrytangyuan) | [Proposal](./proposal/2019/TensorFlow-io-json.pdf) |
 
 ## 总结文章
 
