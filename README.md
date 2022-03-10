@@ -4,13 +4,9 @@
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Gsoc-cn/Lobby)
 
-Welcome to **Open Source** world! Google Summer of Code(GSoC) is a program which provides university students with great opportunities to contribute to open source projects during summer break. See more details at [Official Website](https://developers.google.com/open-source/gsoc/).
+Welcome to **Open Source** world! Google Summer of Code(GSoC) is a program which provides open-source fans with great opportunities to contribute to open source projects during summer break. See more details at [Official Website](https://developers.google.com/open-source/gsoc/).
 
-欢迎来到开源世界！Google Summer of Code (简称 GSoC，中文翻译作 **Google 编程之夏**) 是大学生在暑假期间参加开源项目的一个非常好的机会。[官网](https://developers.google.com/open-source/gsoc/)
-
-You can participate in this activity as long as you are college students over 18(included) years of age. You can treat GSoC as summer internship. The cost performance ratio and value of GSoC is higher than general internship in companies.
-
-只要是你 18 周岁以上的大学生，就可以参加这个活动，你完全可以把它当作你的暑期实习，并且性价比和含金量都比一般实习还高。
+欢迎来到开源世界！Google Summer of Code (简称 GSoC，中文翻译作 **Google 编程之夏**) 是开源爱好者们在暑假期间参加开源项目的一个非常好的机会。[官网](https://developers.google.com/open-source/gsoc/)
 
 ## What's gsoc-cn for?
 
