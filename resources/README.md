@@ -10,6 +10,7 @@
 - [coala](./coala)
 - [EBI](./EBI)
 - [elastic](./elastic)
+- [haiku](./haiku)
 - [hibernate](./hibernate)
 - [jenkins](./jenkins)
 - [Julia](./Julia)
