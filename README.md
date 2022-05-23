@@ -17,7 +17,7 @@ This organization is made up of previous GSoC students who would like to share t
 - [Gitter://GSoC-CN](https://gitter.im/Gsoc-cn/Lobby) (Recommended)
 - [Telegram://GSoC-CN](https://t.me/joinchat/B30CMA1YxJ0g0yo3GLj8uA)
 - [Freenode://gsoccn](https://www.irccloud.com/invite?channel=%23gsoccn&hostname=chat.freenode.net&port=6697&ssl=1)
-- [Slack://gsoc-2018-china](https://join.slack.com/t/gsoc-2018-china/shared_invite/enQtMzU2MjcyNDY0MjU3LTVjYzdmMmM5MTBjNGQ0YjAwYTViOGFmYjRhMTc3MWVlZDEwMGQyMWE5ZTdjZTgzNWMzOTE3ZjdkOThmNDIyZjQ)
+- [Slack://gsoc-cn](https://join.slack.com/t/gsoc--cn/shared_invite/zt-19dzoxlc5-p7D0G9pkSEqsgx9WtxtUFw)
 - QQ群：[621656169](https://jq.qq.com/?_wv=1027&k=3nadIUmv)
 
 There are some other resources or communities about Google Summer of Code:
