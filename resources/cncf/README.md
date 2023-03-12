@@ -82,6 +82,8 @@ PS: 这里我用 slack 的原因，一是用 slack 私信时，可以看到对�
 ## Proposals
 
 - [Proposals 2018](./proposals/2018/)
+- [Proposals 2022](./proposals/2022/)
+- 
 
 ## 历年项目
 
